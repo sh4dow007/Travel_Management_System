@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="akay tours.exe" version="1.0.0.12" publicKeyToken="441332a44d29107a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="if_Flat1-21_2400108.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="akay tours" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="akay tours.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="akay tours.exe" size="32558056">
+      <assemblyIdentity name="akay tours" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/6cJilUUWIFKoHtnpKAPmydi+cuKLOBHaOkK0Bw3FWE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="akay tours.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AKDatabase.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fZFcaOmZQ9kZTZOakJ9jxLf8N1AE+4b10i0daZVM+Q8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AKDatabase_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ey6dLceH4+t3hPs1wF59EHrDVdARoGdJbLBCeP4+OBI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="if_Flat1-21_2400108.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lkIfJCbM67LObyxewvTG61+kGRX3fEJYEBWhAACg+Ck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-ATC9HK2\SH4DOW" issuerKeyHash="1e99ae723430c9aead1a4a4971d93f030d4edb6b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zS5RR9G3qOiykHRCTOglY5CAelNWS1J/Laraj7+tGmk=</DigestValue></Reference></SignedInfo><SignatureValue>Sn4Al7nQ8gIEN6F4ox/TWonDqszJX7m7OEKXopsjDpuGqSNWhLjY55vkYciuk8N3FYYoeW2GJzDcOchx4kujjWFMv5cUIizIH+Ks1B8WaYBHkjFcdB4drgS99VkI7anoCBGQp99rz72Boqf66OeSym5T4CPNAkS9dJCBYpuS5KE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tBlV1uMkreyLUgXss2CzH72kZANbGpWYtq3xH3H71akC0q/EmIskgTLnFbZ5/MlZGCixQ7Pc0/8VdHzku3xjm8jugZcCSC2xFmeM9IIMGpMaTTVH9hogf/LnYpk455oM2xOEI4F59QOXsF+WOH99NmpAejKY3NK2e20PE6dYt6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="691aadbf8fdaaa2d7f524b56537a80906325e84c427490b2e8a8b7d147512ecd" Description="" Url=""><as:assemblyIdentity name="akay tours.exe" version="1.0.0.12" publicKeyToken="441332a44d29107a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-ATC9HK2\SH4DOW</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6aPo50T3YMNtXgsP7R6KbdQPGjevTZJn0Qc6AHBi+Dk=</DigestValue></Reference></SignedInfo><SignatureValue>Wl086aSmfZYbfT2Wro8pmA7AwsKcIevnBht7dIIuj+uMaEiHOPhVYoGG96Dby39kO69a9eOWOeINuu3vgzfmEXcB+nfy0+7fh9HRU2LpwJY4i8bJXctDjZIGvzCjbT2PrBPJA/SCYEW9/Q4lfZrzuMTdN0xciN5TciMoFpotGJE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tBlV1uMkreyLUgXss2CzH72kZANbGpWYtq3xH3H71akC0q/EmIskgTLnFbZ5/MlZGCixQ7Pc0/8VdHzku3xjm8jugZcCSC2xFmeM9IIMGpMaTTVH9hogf/LnYpk455oM2xOEI4F59QOXsF+WOH99NmpAejKY3NK2e20PE6dYt6E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQKjCZ1rzTjqhE148vTWFmrjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEEAVABDADkASABLADIAXABTAEgANABEAE8AVzAeFw0xNzEyMDEyMTQ0NDFaFw0xODEyMDIwMzQ0NDFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQQBUAEMAOQBIAEsAMgBcAFMASAA0AEQATwBXMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0GVXW4ySt7ItSBeyzYLMfvaRkA1salZi2rfEfcfvVqQLSr8SYiySBMucVtnn8yVkYKLFDs9zT/xV0fOS7fGObyO6BlwJILbEWZ4z0ggwakxpNNUf2GiB/8udimTjnmgzbE4QjgXn1A5ewX5Y4f302akB6Mpjc0rZ7bQ8Tp1i3oQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFLwp5FOEuRqgwYhNqRA1/P/o0MnKW4xd8rr04tB3qQsAmndc68Fwczmy6FJdgrR+DAwaGbwzagRApZdMjczIUdWFPi0A1cSLdRvGYOWRdrZdDIql4wzRlVUobnNLZ2cqvXhXyKsXt6ZKA2Veu8Lqroo8snwzmuiykGcp8R+v2i0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
